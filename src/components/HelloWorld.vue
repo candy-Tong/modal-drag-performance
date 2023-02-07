@@ -66,6 +66,7 @@ const { style } = useDragModal(modalTitleRef);
         <component :is="originVNode" />
       </div>
     </template>
+    <!-- v-memo="[columns, tableData]" -->
     <a-table
       :columns="columns"
       :data-source="tableData"
